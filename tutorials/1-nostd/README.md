@@ -45,7 +45,7 @@ ldd test
 nm test | grep ' T '
 ```
 
-* The entry point is the address of _`start`:
+* The entry point is the address of `_start`:
 
 ```shell
 readelf -h test | grep Entry
